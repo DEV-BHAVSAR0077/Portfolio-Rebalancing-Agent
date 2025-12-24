@@ -43,17 +43,17 @@ This project solves the problem by integrating:
 
 ## 🏗️ System Architecture
 
-  User Upload CSV (Streamlit)
-              ↓
-  Pandas Portfolio Analyzer (Data Processing)
-              ↓
-  Allocation Drift Calculation
-              ↓
-  Agentic AI Reasoning (LLM prompts + logic)
-              ↓
-  Rebalancing Decision & Explanation
-              ↓
-  Streamlit Dashboard (Visual Output)
+            User CSV Upload
+                  ↓
+      Pandas Portfolio Analyzer
+                  ↓
+      Allocation Drift Detection
+                  ↓
+   LLM Reasoning Agent (Agentic AI)
+                  ↓
+   Rebalancing Decision + Explanation
+                  ↓
+Streamlit Web Dashboard (Visual Output)
 
 ---
 
