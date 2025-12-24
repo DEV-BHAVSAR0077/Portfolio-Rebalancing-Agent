@@ -49,11 +49,11 @@ This project solves the problem by integrating:
                   ↓
       Allocation Drift Detection
                   ↓
-   LLM Reasoning Agent (Agentic AI)
+      LLM Reasoning Agent (Agentic AI)
                   ↓
-   Rebalancing Decision + Explanation
+      Rebalancing Decision + Explanation
                   ↓
-Streamlit Web Dashboard (Visual Output)
+      Streamlit Web Dashboard (Visual Output)
 
 ---
 
