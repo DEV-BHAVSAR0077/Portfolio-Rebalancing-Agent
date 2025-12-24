@@ -195,7 +195,9 @@ This project demonstrates how Agentic AI, combined with data analytics and visua
 ## 👨‍💻 Author
 
 Dev Bhavsar
+
 M.Sc. Data Science
+
 Agentic AI | Machine Learning | Data Analytics
 
 ---
