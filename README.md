@@ -104,14 +104,14 @@ The project uses a structured CSV portfolio dataset with the following required 
 | Target_Allocation | Desired portfolio weight |
 
 ### Sample CSV
-csv
-Asset,Asset_Class,Current_Value,Target_Allocation
-TCS,Equity,150000,0.25
-INFY,Equity,120000,0.20
-HDFC Bank,Equity,100000,0.15
-Reliance,Equity,90000,0.15
-Gold ETF,Commodity,80000,0.15
-Liquid Fund,Debt,60000,0.10
+    csv
+    Asset,Asset_Class,Current_Value,Target_Allocation
+    TCS,Equity,150000,0.25
+    INFY,Equity,120000,0.20
+    HDFC Bank,Equity,100000,0.15
+    Reliance,Equity,90000,0.15
+    Gold ETF,Commodity,80000,0.15
+    Liquid Fund,Debt,60000,0.10
 
 --- 
 
@@ -125,18 +125,20 @@ Allocation Drift – Overweight / Underweight (Bar Chart)
 
 All charts are displayed side by side for easy comparison and analysis.
 
-🚀 How to Run the Project
-1️⃣ Clone the Repository
+---
+
+## 🚀 How to Run the Project
+### 1️⃣ Clone the Repository
 git clone https://github.com/DEV-BHAVSAR0077/Portfolio-Rebalancing-Agent.git
 cd Portfolio-Rebalancing-Agent
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Run the Web Application
+### 3️⃣ Run the Web Application
 streamlit run web_app.py
 
-4️⃣ Upload CSV and Analyze
+### 4️⃣ Upload CSV and Analyze
 
 Upload a portfolio CSV file
 
@@ -144,7 +146,9 @@ Click Analyze Uploaded Portfolio
 
 View AI recommendations and visual insights
 
-🧪 Example Output
+--- 
+
+## 🧪 Example Output
 
 Detects overweight equity exposure
 
@@ -154,11 +158,13 @@ Suggests rebalancing actions
 
 Explains decisions in simple, investor-friendly language
 
-🧠 Agentic AI Explanation (For Viva)
+---
+
+## 🧠 Agentic AI Explanation (For Viva)
 
 “The LLM in this project functions as a reasoning agent. It analyzes portfolio metrics, applies financial rules, makes rebalancing decisions, and explains them using multi-step reasoning rather than simple text generation.”
 
-⚠️ Limitations
+### ⚠️ Limitations
 
 Uses static portfolio data
 
@@ -166,7 +172,7 @@ Target allocations are user-defined
 
 No live market data integration
 
-🔮 Future Enhancements
+### 🔮 Future Enhancements
 
 Live market data APIs
 
@@ -178,14 +184,20 @@ Portfolio history tracking
 
 RAG with vector databases
 
-📜 Conclusion
+---
+
+## 📜 Conclusion
 
 This project demonstrates how Agentic AI, combined with data analytics and visualization, can deliver an explainable and practical financial decision-support system. It bridges numerical analysis with human-understandable reasoning, making AI-driven finance more transparent and accessible.
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
 
 Dev Bhavsar
 M.Sc. Data Science
 Agentic AI | Machine Learning | Data Analytics
 
-⭐ If you find this project useful, consider giving it a star on GitHub.
+---
+
+### ⭐ If you find this project useful, consider giving it a star on GitHub.
