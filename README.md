@@ -70,24 +70,24 @@ This project solves the problem by integrating:
 
 ## 📂 Project Structure
 
-Portfolio-Rebalancing-Agent/
-│
-├── agent/
-│ ├── analyzer.py # Portfolio analysis using Pandas
-│ ├── reasoning_agent.py # LLM-based reasoning agent
-│ └── prompt_templates.py # Multi-step prompt templates
-│
-├── data/
-│ └── portfolio_sample.csv # Sample dataset
-│
-├── knowledge_base/
-│ ├── rebalancing_rules.txt # Financial rebalancing rules
-│ └── risk_profiles.txt # Risk profile knowledge
-│
-├── app.py # Backend logic (terminal + callable)
-├── web_app.py # Streamlit web application
-├── requirements.txt
-└── README.md
+    Portfolio-Rebalancing-Agent/
+    │
+    ├── agent/
+    │ ├── analyzer.py # Portfolio analysis using Pandas
+    │ ├── reasoning_agent.py # LLM-based reasoning agent
+    │ └── prompt_templates.py # Multi-step prompt templates
+    │
+    ├── data/
+    │ └── portfolio_sample.csv # Sample dataset
+    │
+    ├── knowledge_base/
+    │ ├── rebalancing_rules.txt # Financial rebalancing rules
+    │ └── risk_profiles.txt # Risk profile knowledge
+    │
+    ├── app.py # Backend logic (terminal + callable)
+    ├── web_app.py # Streamlit web application
+    ├── requirements.txt
+    └── README.md
 
 
 ---
