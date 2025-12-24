@@ -104,7 +104,8 @@ The project uses a structured CSV portfolio dataset with the following required 
 | Target_Allocation | Desired portfolio weight |
 
 ### Sample CSV
-    csv
+    csv file
+
     Asset,Asset_Class,Current_Value,Target_Allocation
     TCS,Equity,150000,0.25
     INFY,Equity,120000,0.20
@@ -160,7 +161,7 @@ Explains decisions in simple, investor-friendly language
 
 ---
 
-## 🧠 Agentic AI Explanation (For Viva)
+## 🧠 Agentic AI Explanation
 
 “The LLM in this project functions as a reasoning agent. It analyzes portfolio metrics, applies financial rules, makes rebalancing decisions, and explains them using multi-step reasoning rather than simple text generation.”
 
