@@ -113,7 +113,9 @@ Reliance,Equity,90000,0.15
 Gold ETF,Commodity,80000,0.15
 Liquid Fund,Debt,60000,0.10
 
-📊 Visualizations
+--- 
+
+## 📊 Visualizations
 
 Current Portfolio Allocation (Pie Chart)
 
