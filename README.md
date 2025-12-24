@@ -104,7 +104,7 @@ The project uses a structured CSV portfolio dataset with the following required 
 | Target_Allocation | Desired portfolio weight |
 
 ### Sample CSV
-```csv
+csv
 Asset,Asset_Class,Current_Value,Target_Allocation
 TCS,Equity,150000,0.25
 INFY,Equity,120000,0.20
