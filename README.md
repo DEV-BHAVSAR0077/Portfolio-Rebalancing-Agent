@@ -43,32 +43,17 @@ This project solves the problem by integrating:
 
 ## 🏗️ System Architecture
 
-## 🏗️ System Architecture
-
-The overall architecture of the project is structured to separate data analysis, AI reasoning, and visualization into modular components.
-
-
-User Upload CSV (Streamlit)
-  ↓
-Pandas Portfolio Analyzer (Data Processing)
-  ↓
-Allocation Drift Calculation
-  ↓
-Agentic AI Reasoning (LLM prompts + logic)
-  ↓
-Rebalancing Decision & Explanation
-  ↓
-Streamlit Dashboard (Visual Output)
-
-
-
-**Description of Components**
-
-- **User Upload CSV:** User uploads a portfolio file from the web interface.
-- **Pandas Portfolio Analyzer:** Processes portfolio values, computes allocation and drift.
-- **Allocation Drift Calculation:** Determines overweight/underweight assets.
-- **Agentic AI Reasoning:** Uses multi-step prompts with LLM to generate decisions.
-- **Streamlit Dashboard:** Displays portfolio table, graphs, and AI explanations.
+            User CSV Upload
+                  ↓
+      Pandas Portfolio Analyzer
+                  ↓
+      Allocation Drift Detection
+                  ↓
+   LLM Reasoning Agent (Agentic AI)
+                  ↓
+   Rebalancing Decision + Explanation
+                  ↓
+Streamlit Web Dashboard (Visual Output)
 
 ---
 
@@ -84,8 +69,6 @@ Streamlit Dashboard (Visual Output)
 ---
 
 ## 📂 Project Structure
-
-The project is organized into modular components for analysis, reasoning, dataset storage, and UI:
 
 Portfolio-Rebalancing-Agent/
 │
@@ -128,9 +111,9 @@ INFY,Equity,120000,0.20
 HDFC Bank,Equity,100000,0.15
 Reliance,Equity,90000,0.15
 Gold ETF,Commodity,80000,0.15
-Liquid Fund,Debt,60000,0.10 ```
+Liquid Fund,Debt,60000,0.10
 
-## 📊 Visualizations
+📊 Visualizations
 
 Current Portfolio Allocation (Pie Chart)
 
@@ -140,7 +123,7 @@ Allocation Drift – Overweight / Underweight (Bar Chart)
 
 All charts are displayed side by side for easy comparison and analysis.
 
-## 🚀 How to Run the Project
+🚀 How to Run the Project
 1️⃣ Clone the Repository
 git clone https://github.com/DEV-BHAVSAR0077/Portfolio-Rebalancing-Agent.git
 cd Portfolio-Rebalancing-Agent
