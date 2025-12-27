@@ -187,6 +187,15 @@ RAG with vector databases
 
 ---
 
+## Outputs
+
+![Upload Portfolio CSV](outputs\s1.png)
+![Uploaded Portfolio Data](outputs\s2.png)
+![Portfolio Visual Analysis](outputs\s3.png)
+![Rebalancing Recommendation](outputs\s4.png)
+
+---
+
 ## 📜 Conclusion
 
 This project demonstrates how Agentic AI, combined with data analytics and visualization, can deliver an explainable and practical financial decision-support system. It bridges numerical analysis with human-understandable reasoning, making AI-driven finance more transparent and accessible.
