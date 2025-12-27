@@ -190,9 +190,9 @@ RAG with vector databases
 ## Outputs
 
 ![Upload Portfolio CSV](outputs/s1.png)
-![Uploaded Portfolio Data](outputs\s2.png)
-![Portfolio Visual Analysis](outputs\s3.png)
-![Rebalancing Recommendation](outputs\s4.png)
+![Uploaded Portfolio Data](outputs/s2.png)
+![Portfolio Visual Analysis](outputs/s3.png)
+![Rebalancing Recommendation](outputs/s4.png)
 
 ---
 
